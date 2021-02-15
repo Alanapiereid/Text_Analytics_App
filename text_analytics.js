@@ -1,6 +1,7 @@
 
 
 function myAnalytics() {
+    document.getElementById("myList").innerHTML = "";
     var sent = document.getElementById("sent").value;
     var text_out = []      
     var splitsent = sent.split(" ");
