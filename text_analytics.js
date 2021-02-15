@@ -14,14 +14,12 @@ function myAnalytics() {
         for(var j=0; j < terms.length; j++) {
             output = terms[j].text + " -> " + terms[j].tags;
         }
-        //result = JSON.stringify(json[i].terms, null, 2)
         var node = document.createElement("LI");
         var textnode = document.createTextNode(output);
         node.appendChild(textnode);
         document.getElementById("myList").appendChild(node);
     
     }
-    // var result=JSON.stringify(json[i].terms, null, 2)
 
     }
 
